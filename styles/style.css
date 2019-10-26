@@ -1,0 +1,46 @@
+.topnav a {
+    float: right;
+    color: #1a0606;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+.topnav img {
+    float: right;
+    border-radius: 50%;
+
+}
+
+.mainpage {
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    width: 50%;
+    position: relative;
+    top: 180px;
+  }
+ .form {
+    position:absolute;
+    left:35%;
+    top:55%;
+    width:50%;
+    background-color:white;
+    color:grey;
+    padding: 12px 20px 12px 40px;
+    margin: 8px 0;
+    display: inline-block;
+}
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('images/search-icon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
