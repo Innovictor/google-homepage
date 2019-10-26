@@ -10,6 +10,7 @@
 .topnav img {
     float: right;
     border-radius: 50%;
+    text-decoration: none;
 
 }
 
@@ -19,18 +20,19 @@
     margin-right: 10%;
     width: 50%;
     position: relative;
-    top: 180px;
+    top: 120px;
   }
  .form {
     position:absolute;
-    left:35%;
-    top:55%;
+    left:30%;
+    top:45%;
     width:50%;
     background-color:white;
     color:grey;
     padding: 12px 20px 12px 40px;
     margin: 8px 0;
     display: inline-block;
+    
 }
 input[type=text] {
     width: 100%;
@@ -42,5 +44,73 @@ input[type=text] {
     background-image: url('images/search-icon.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    padding: 12px 20px 12px 30px;
+    border-radius: 15%;
+
   }
+  .search-buttons {
+    position:absolute;
+    left:35%;
+    top:55%;
+    width:50%;
+    padding: 12px 20px 12px 40px;
+    margin: 10px 0;
+    display: inline-block;
+    color:#d3c8c8;
+    font-family: sans-serif;
+  }
+
+.lang-options {
+    position:absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    width: 50%;
+    position: relative;
+    top: 200px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  position: fixed; 
+  bottom: 30px;
+  width: 100%;
+}
+.footer p{
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.bottomnav {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  position: fixed; 
+  bottom: 0;
+  width: 100%;
+}
+
+.bottomnav a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.bottomnav1 a {
+  float: right;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 12px;
+}
